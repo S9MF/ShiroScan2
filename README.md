@@ -1,0 +1,2 @@
+# ShiroScan2
+基于BurpShiroPassiveScan修改增加了Xray回显链生成
