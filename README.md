@@ -1,5 +1,5 @@
 ## ShiroScan2
-基于[BurpShiroPassiveScan](https://github.com/pmiaowu/BurpShiroPassiveScan)项目修改增加了Xray回显链生成。
+基于[BurpShiroPassiveScan](https://github.com/pmiaowu/BurpShiroPassiveScan)项目修改增加了Xray回显链生成，修改的目的很简单，就是当pmiaowu大佬的插件检测出漏洞后，自己生成cookie验证下，进一步利用还得是ShiroAttack这类工具
 
 ## 编译方法
 参考[BurpShiroPassiveScan](https://github.com/pmiaowu/BurpShiroPassiveScan#%E7%BC%96%E8%AF%91%E6%96%B9%E6%B3%95)
@@ -9,7 +9,7 @@
 
 ![image](https://user-images.githubusercontent.com/48114638/188471796-21712269-03fd-41eb-9a7b-3c7465e85d05.png)
 
-点击Config输入key，选择加密模式并保存，支持CBC和GCM两种。
+点击Config输入key，选择加密模式并保存，支持CBC和GCM两种
 
 ![image](https://user-images.githubusercontent.com/48114638/188472111-400968c1-31e3-4735-9b66-7d9717906caf.png)
 
